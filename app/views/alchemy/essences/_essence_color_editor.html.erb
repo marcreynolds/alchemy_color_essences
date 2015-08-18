@@ -1,0 +1,16 @@
+<% cache(content) do %>
+  <div class="essence_color content_editor<%= options[:display_inline].to_s == 'true' ? ' display_inline' : '' %>" id="<%= content.dom_id %>">
+    <%= label_and_remove_link(content) %>
+      <%= text_field_tag(
+        content.form_field_name,
+        content.ingredient
+      ) %>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#<%= content.dom_id %> input').spectrum({preferredFormat: 'hex', showAlpha: false, showInput: true});
+      });
+  </script>
+            
+<% end %>
+
