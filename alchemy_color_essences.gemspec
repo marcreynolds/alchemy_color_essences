@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.version     = AlchemyColorEssences::VERSION
   s.authors     = ["Marc Reynolds"]
   s.email       = ["marc@ezeratech.com"]
+  s.homepage    = "https://github.com/exomarc/alchemy_color_essences"
   s.summary     = %q(Adds EssenceColor for Alchemy CMS 3.1)
   s.description = %q(Adds EssenceColor essences to your Alechmy CMS powered site.)
   s.license     = "MIT"
@@ -18,5 +19,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -z`.split("\x0")
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'alchemy_cms', '~> 3.1.0'
+  s.add_runtime_dependency 'alchemy_cms', '~> 3.1'
 end
