@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.version     = AlchemyColorEssences::VERSION
   s.authors     = ["Marc Reynolds"]
   s.email       = ["marc@ezeratech.com"]
-  s.summary     = "TODO: Summary of AlchemyColorEssences."
-  s.description = "TODO: Description of AlchemyColorEssences."
+  s.summary     = %q(Adds EssenceColor for Alchemy CMS 3.1)
+  s.description = %q(Adds EssenceColor essences to your Alechmy CMS powered site.)
   s.license     = "MIT"
 
 # s.files         = `git ls-files -z`.split("\x0")
